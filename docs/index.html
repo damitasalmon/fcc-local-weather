@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Zipline: Show the Local Weather - Broken?</title>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Local Weather App</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<header>
+  <h1 class="lead temp"><span class="char1">I</span><span class="char2">t</span><span class="char3">'</span><span class="char4">s</span><span class="char5">&nbsp;</span><span class="char6">t</span><span class="char7">h</span><span class="char8">e</span><span class="char9">&nbsp;</span><span class="char10">w</span><span class="char11">e</span><span class="char12">a</span><span class="char13">t</span><span class="char14">h</span><span class="char15">e</span><span class="char16">r</span><span class="char17">!</span></h1>
+</header>
+<div class="container-fluid text-sm-center main">
+  <div class="row">
+    <div class="col-sm-6 thing-one">
+      <div id="icon">
+        <div class="icon sun-shower">
+          <div class="cloud"></div>
+          <div class="sun">
+            <div class="rays"></div>
+          </div>
+          <div class="rain"></div>
+        </div>
+        <div class="icon thunder-storm">
+          <div class="cloud"></div>
+          <div class="lightning">
+            <div class="bolt"></div>
+            <div class="bolt"></div>
+          </div>
+        </div>
+        <div class="icon cloudy">
+          <div class="cloud"></div>
+          <div class="cloud"></div>
+        </div>
+        <div class="icon flurries">
+          <div class="cloud"></div>
+          <div class="snow">
+            <div class="flake"></div>
+            <div class="flake"></div>
+          </div>
+        </div>
+        <div class="icon sunny">
+          <div class="sun">
+            <div class="rays"></div>
+          </div>
+        </div>
+        <div class="icon rainy">
+          <div class="cloud"></div>
+          <div class="rain"></div>
+        </div>
+      </div>
+      <div class="temp text-capitalize text-sm-center" id="desc"> </div>
+      <h3 class="text-sm-center">in</h3>
+      <div class="temp text-sm-center" id="location"> </div>
+    </div>
+    <div class="col-sm-6 thing-two">
+      <h4 class="text-sm-center">It's</h4>
+      <button class="temp animated bounceInRight" type="button" data-toggle="button" aria-pressed="false" autocomplete="off" id="temp"></button>
+      <h4 class="text-sm-center">with a wind speed of
+        <div class="temp text-sm-center" id="wind"></div>
+      </h4>
+    </div>
+    <div class="container">
+      <p>Icons by&nbsp;<a href="https://codepen.io/joshbader/full/EjXgqr/" target="_blank">Josh Bader </a></p>
+      <p>Weather provided by&nbsp;<a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+    </div>
+  </div>
+</div>
+<footer class="footer-2" role="contentinfo">
+  <div class="footer-logo"><img alt="Logo image" src="https://omgninjas.github.io/assets/img/logo.svg"/></div>
+  <div class="footer-secondary-links">
+    <ul class="footer-social">
+      <li>
+        <p>Copyright © 2019 &nbsp;<a href="http://omgninjas.me/" target="_blank">omgninjas</a></p>
+      </li>
+      <li><a href="https://www.twitter.com/omgninjaz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.freecodecamp.com/omgninjas" target="_blank"><i class="fa fa-fire"></i></a></li>
+      <li><a href="https://www.github.com/omgninjas" target="_blank"><i class="fa fa-github"></i></a></li>
+    </ul>
+  </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/2db3674173.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js'></script>
+<script src='https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

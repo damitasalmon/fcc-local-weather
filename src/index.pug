@@ -1,0 +1,77 @@
+header
+  h1.lead.temp
+    span.char1 I
+    span.char2 t
+    span.char3 '
+    span.char4 s
+    span.char5 &nbsp;
+    span.char6 t
+    span.char7 h
+    span.char8 e
+    span.char9 &nbsp;
+    span.char10 w
+    span.char11 e
+    span.char12 a
+    span.char13 t
+    span.char14 h
+    span.char15 e
+    span.char16 r
+    span.char17 !
+    
+.container-fluid.text-sm-center.main
+  .row
+    .col-sm-6.thing-one
+      #icon
+        .icon.sun-shower
+          .cloud
+          .sun
+            .rays
+          .rain
+        .icon.thunder-storm
+          .cloud
+          .lightning
+            .bolt
+            .bolt
+        .icon.cloudy
+          .cloud
+          .cloud
+        .icon.flurries
+          .cloud
+          .snow
+            .flake
+            .flake
+        .icon.sunny
+          .sun
+            .rays
+        .icon.rainy
+          .cloud
+          .rain
+      #desc.temp.text-capitalize.text-sm-center 
+      h3.text-sm-center in
+      #location.temp.text-sm-center 
+    .col-sm-6.thing-two
+      h4.text-sm-center It's
+      button(type="button", data-toggle="button", aria-pressed="false", autocomplete="off").temp#temp.animated.bounceInRight
+      h4.text-sm-center with a wind speed of
+        #wind.temp.text-sm-center
+    .container
+      p Icons by&nbsp;
+        a(href="https://codepen.io/joshbader/full/EjXgqr/", target="_blank") Josh Bader 
+      p Weather provided by&nbsp;
+        a(href="https://openweathermap.org/", target="_blank") OpenWeatherMap
+
+footer.footer-2(role='contentinfo')
+  .footer-logo
+    img(alt='Logo image', src='https://omgninjas.github.io/assets/img/logo.svg')
+  .footer-secondary-links
+    ul.footer-social
+      li
+        p Copyright © #{new Date().getFullYear()} &nbsp;
+          a(href='http://omgninjas.me/', target='_blank') omgninjas
+      li: a(href='https://www.twitter.com/omgninjaz', target='_blank')
+          i.fa.fa-twitter
+      li: a(href='https://www.freecodecamp.com/omgninjas', target='_blank')
+          i.fa.fa-fire
+      li: a(href="https://www.github.com/omgninjas", target='_blank')
+        i.fa.fa-github
+        
